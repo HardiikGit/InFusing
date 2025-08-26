@@ -1,0 +1,529 @@
+/* Font Family Link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins";
+  background-color: #fffcf4;
+}
+/* Header Section Start */
+header.headerSetion {
+  padding: 10px 0px;
+  background: #75602e;
+}
+.headingPara p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Navbar Section Start */
+.navbar-links-items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 35px;
+  list-style: none;
+}
+.n-fl {
+  align-items: center;
+}
+.nav-Logo-styl {
+  width: 100%;
+  padding: 10px 0px;
+}
+.navLogo {
+  width: 90px;
+  margin: 0 auto;
+}
+.navLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header-icons-click {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+.navbar-btn {
+  display: none;
+}
+.cls-btn {
+  display: none;
+}
+.navBarSection a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+  outline: none;
+}
+.a-click a {
+  font-size: 18px;
+}
+.missionTeaLink a {
+  padding: 15px 20px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  transition: 0.5s ease;
+}
+.missionTeaLink a:hover {
+  background: #fff;
+  color: #000;
+}
+.nav-fl {
+  display: none;
+}
+/* Banner Section Start */
+.bannerSection {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainHeading h1 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.mainHeading .txt-block {
+  display: block;
+}
+.main-Click-ln {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.click-styl {
+  display: inline-block;
+  color: #fff;
+  padding: 14px 28px;
+  font-size: 16px;
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+  border-radius: 6px;
+  outline: none;
+}
+.cart-link i {
+  padding: 0px 0px 0px 5px;
+}
+.an-click-style {
+  background: transparent;
+  color: #fff;
+}
+video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+/* Banner Section CSS Ends */
+
+/* Social impact Heading  */
+.headingLogo {
+  width: 100%;
+}
+.headingLogo figure {
+  width: 40px;
+}
+.headingLogo figure img {
+  width: 100%;
+}
+
+/* Card Heading */
+.CardHeading {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.h2-heading-styl {
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+  text-transform: uppercase;
+}
+.CardHeading h2:nth-child(1) {
+  font-size: 16px;
+  font-weight: 500;
+  color: #00000099;
+}
+.card figure {
+  width: 100%;
+  height: 100%;
+}
+.card figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.book-Images-Card {
+  width: 100%;
+  padding: 30px;
+  background: #fff5e3;
+  border-radius: 10px;
+}
+.bookSummry {
+  text-align: center;
+}
+p.price {
+  font-size: 18px !important;
+  font-weight: 600;
+  padding: 0 !important;
+}
+.cardBoxesSection {
+  margin: 50px 0px;
+}
+.card {
+  padding: 10px 0px;
+}
+.book-Images-Card {
+  width: 100%;
+  padding: 30px;
+  background: #fff5e3;
+  border-radius: 10px;
+}
+.bookSummry {
+  text-align: center;
+  padding: 15px 0px;
+}
+.bookSummry a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  padding-top: 10px;
+}
+.bookSummry p {
+  color: #00000099;
+  font-size: 16px;
+  padding: 15px 0px;
+  line-height: 30px;
+}
+
+/* Infusing Section Starts */
+.InFusingSection {
+  width: 100%;
+}
+.infusingImg {
+  width: 100%;
+  height: 100%;
+}
+.infusingImg figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.infusingImg figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.p1 {
+  padding: 0 !important;
+}
+.p2 {
+  padding: 0px 40px !important;
+}
+.infusingTxt {
+  padding: 20px 0px;
+}
+.infusingTxt figure {
+  width: 40px;
+}
+.infusingTxt figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.infusingPara p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 30px 0px;
+  width: 80%;
+  color: #00000099;
+}
+.infusingAnchor a {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
+  text-decoration: none;
+}
+.h2-heading-styl::after {
+  content: "";
+  background: #000;
+  width: 65px;
+  height: 3px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+/* About Infusing Section Start */
+.aboutInfusing {
+  width: 100%;
+  padding: 60px 0px;
+  border-bottom: 1px solid #00000033;
+}
+.anchor-Styl {
+  background: #1e293b;
+  color: #fff !important;
+}
+
+/* Footer Section Start */
+.footerSection {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+.footerLogo {
+  width: 140px;
+  padding: 50px 0px 20px;
+  margin: 0 auto;
+}
+.footerLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footerHeading h4 {
+  text-transform: uppercase;
+  margin: 30px 0px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.footerPara p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.footer-copy-para p {
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+}
+.footer-Subscribe {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.footerInput {
+  width: 45%;
+}
+.footerInput input {
+  width: 100%;
+  font-size: 14px;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  outline: none;
+}
+.footer-Button-Styl {
+  display: inline-block;
+  padding: 10px 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #ffcd57;
+  border: 1px solid #ffcd57;
+  color: #000;
+}
+
+/* Responsive Section */
+
+@media (max-width: 1200px) {
+  /* Navigation Bar Css Start */
+  .missionTeaLink a {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .navbar-links-items {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Navigation Bar Side Bar */
+  .navbar-links-items {
+    flex-direction: column;
+    margin: 10px 0px 0px 30px;
+  }
+  .a-click {
+    width: 100%;
+    text-align: left;
+  }
+  .missionTeaLink a {
+    padding: 10px 15px;
+  }
+  .a-click a {
+    font-size: 18px;
+  }
+  .nav-Logo-styl {
+    padding: 0;
+  }
+  .nav-fl {
+    display: block;
+  }
+  .navLinks {
+    position: fixed;
+    top: 0;
+    left: -70%;
+    height: 100vh;
+    width: 50%;
+    background: #fff;
+    z-index: 9;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+  }
+  .navLinks.active {
+    left: 0;
+  }
+  .navbar-btn {
+    text-align: right;
+  }
+  .nav-btn {
+    font-size: 28px;
+    background: transparent;
+    border: none;
+    color: #75602e;
+  }
+  .cls-btn {
+    font-size: 28px;
+    background: transparent;
+    border: none;
+    color: #75602e;
+  }
+  .navLogo {
+    margin: 0;
+  }
+  .footerInput {
+    width: 100%;
+  }
+  .footerHeading h4 {
+    margin: 10px 0px;
+  }
+  /* Responsive Navigation Bar Start */
+  .navbar-btn {
+    display: block;
+  }
+  .cls-btn {
+    display: block;
+  }
+  .closeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 15px 10px 0px 0px;
+  }
+  .header-icons-click {
+    display: none;
+  }
+  .infusingPara p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Body Css Start */
+  body {
+    text-align: center;
+  }
+  .closeBtn {
+    margin: 20px 20px 0px 0px;
+  }
+  .navLinks {
+    left: -100%;
+    width: 100%;
+  }
+  .a-click {
+    text-align: center;
+  }
+  .navbar-links-items {
+    margin: 20px 0px 0px 0px;
+  }
+  /* Heading Logo Style */
+  .headingLogo figure {
+    margin: 0 auto;
+  }
+
+  /* Banner Section Start */
+  .bannerSection {
+    height: 420px;
+  }
+  .mainHeading h1 {
+    font-size: 28px;
+  }
+  .cart-link {
+    width: 100%;
+  }
+  .learn-link {
+    width: 100%;
+  }
+  .click-styl {
+    font-size: 14px;
+    width: 100%;
+  }
+  .main-Click-ln {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* About Section Css */
+  .infusingTxt {
+    padding: 30px 0px;
+  }
+  .h2-heading-styl {
+    font-size: 26px;
+  }
+  .h2-heading-styl::after {
+    width: 100%;
+    height: 2px;
+  }
+  .aboutInfusing {
+    padding: 30px 0px;
+  }
+  /* Card Boxes Start */
+  .cardBoxesSection {
+    margin: 30px 0px;
+  }
+  .book-Images-Card {
+    padding: 15px;
+  }
+  .infusingTxt figure {
+    margin: 0 auto;
+  }
+
+  /* Footer Section Start */
+  .footerHeading h4 {
+    margin: 15px 0px;
+  }
+  .footer-Subscribe {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footerInput {
+    width: 100%;
+  }
+  .footerInputButton {
+    width: 100%;
+  }
+  .footer-Button-Styl {
+    width: 100%;
+  }
+  .footerPara p {
+    font-size: 16px;
+  }
+}

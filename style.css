@@ -5,6 +5,9 @@ body {
   font-family: "Poppins";
   background-color: #fffcf4;
 }
+button {
+  cursor: pointer !important;
+}
 /* Header Section Start */
 header.headerSetion {
   padding: 10px 0px;
@@ -321,25 +324,33 @@ p.price {
   width: 100%;
   display: flex;
   align-items: center;
+  height: 40px;
 }
 .footerInput {
   width: 45%;
 }
-.footerInput input {
-  width: 100%;
-  font-size: 14px;
-  padding: 10px 30px;
-  border: 1px solid #fff;
-  outline: none;
+.footerInput {
+  height: 100%;
+  input {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    padding: 0px 30px;
+    border: 1px solid #fff;
+    outline: none;
+  }
 }
-.footer-Button-Styl {
-  display: inline-block;
-  padding: 10px 40px;
-  font-size: 14px;
-  text-transform: uppercase;
-  background: #ffcd57;
-  border: 1px solid #ffcd57;
-  color: #000;
+.footerInputButton {
+  height: 100%;
+  .footer-Button-Styl {
+    padding: 10px 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #ffcd57;
+    border: 1px solid #ffcd57;
+    color: #000;
+    height: 100%;
+  }
 }
 
 /* Responsive Section */

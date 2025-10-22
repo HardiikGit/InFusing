@@ -524,12 +524,16 @@ p.price {
   .footer-Subscribe {
     flex-direction: column;
     gap: 20px;
+    height: 100px;
   }
   .footerInput {
     width: 100%;
   }
   .footerInputButton {
     width: 100%;
+    .footer-Button-Styl {
+      justify-content: center;
+    }
   }
   .footer-Button-Styl {
     width: 100%;
